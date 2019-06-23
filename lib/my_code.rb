@@ -23,6 +23,6 @@ def reduce_to_all_true(arr)
   arr.all? 
 end 
 
-def reduce_to_all_true(arr) 
-  arr.all? 
+def reduce_to_any_true(arr) 
+  arr.any? 
 end 
