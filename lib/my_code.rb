@@ -20,7 +20,15 @@ def reduce_to_total(arr)
 end
 
 def reduce_to_all_true(arr) 
-  arr.reduce(false) {
-  }
+  i = 0 
+  result = true
+  
+  while i < arr.size do
+    if arr[i] = false 
+      result = false 
+    end 
+    i++
+  end 
+  result 
 end 
 
