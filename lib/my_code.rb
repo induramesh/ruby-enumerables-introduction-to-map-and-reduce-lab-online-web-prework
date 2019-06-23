@@ -28,7 +28,7 @@ def reduce_to_all_true(arr)
       return false
     else 
       i++
-    end 
+    #end 
   end 
   return result 
 end 
