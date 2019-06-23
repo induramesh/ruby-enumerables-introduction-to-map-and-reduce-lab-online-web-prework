@@ -19,16 +19,3 @@ def reduce_to_total(arr)
   arr.reduce(0) { |num| sum = sum + num }
 end
 
-def reduce_to_all_true(arr) 
-  i = 0 
-  result = true
-  
-  while i < arr.size do
-    if arr[i] = false 
-      result = false 
-    end 
-    i++
-  end 
-  result 
-end 
-
