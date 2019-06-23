@@ -25,10 +25,11 @@ def reduce_to_all_true(arr)
   
   while i < arr.size do
     if arr[i] = false 
-      return false
+      result = false
+      break 
     else 
       i++
-    #end 
+    end 
   end 
   return result 
 end 
